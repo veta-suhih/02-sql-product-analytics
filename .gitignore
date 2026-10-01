@@ -1,0 +1,45 @@
+# Данные (не заливать тяжёлые файлы)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.sqlite
+*.db
+data/
+datasets/
+raw/
+processed/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Power BI / Tableau
+*.pbix
+*.twbx
+*.hyper
+
+# Системные
+.DS_Store
+Thumbs.db
+*.log
+.env
+.idea/
+.vscode/
+*.tmp
+~$*
